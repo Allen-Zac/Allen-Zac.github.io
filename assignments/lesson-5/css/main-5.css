@@ -2,12 +2,13 @@
 }
 
 body {
-  font-size: 16px;
-  font-family: sans-serif;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 
 header, nav, main, footer {
-  max-width: 1200px;
+    max-width: 960px;
+    margin: auto;
 }
 
 header {font-family: serif;}
@@ -15,13 +16,18 @@ header h1 {
     font-size: 50px;
     text-align: center;
     margin-bottom: 5px;
+    color: dodgerblue;
 }
 
-header img { float: left; }
+header img { 
+    float: left; 
+    padding-bottom: 30px;
+}
 header .subheading {
     font-size: 26px;
     text-align: center;
     margin-bottom: 25px;
+    color: cadetblue;
 }
 
 nav {display: none;}
@@ -37,6 +43,9 @@ main h2 {
     font-family: serif;
     font-size: 35px;
     text-align: center;
+    border-top: 2px solid cadetblue;
+    border-bottom: 2px solid cadetblue;
+    color: dodgerblue;
 }
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { 
@@ -46,10 +55,81 @@ main figure img {
     width: 100%;
 }
 
-picture img{
+.weather-summary { 
+    margin: 10px;
+    margin-left: 90px;
+}
+
+.weather-summary h3 {
+    text-align: left;
+    color: cadetblue;
+}
+
+.current img{
     float: right;
 }
 
+.current {margin-left: 0px;}
+
+.highlow {margin-left: 0px;}
+
+.conditions {margin-left: px;}
+
 .forecast { display: none; }
 
-footer {}
+article { 
+    display: block;
+    border-bottom: 2px solid cadetblue;
+}
+
+article h3 { 
+    margin-top: 70px;
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+    border-top: 2px solid cadetblue;
+    border-bottom: 2px solid cadetblue;
+    color: dodgerblue
+}
+
+article img {
+    margin-left: 42px;
+    margin-right: auto;
+    width: 85%
+}
+
+.town-article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: left;
+}
+
+footer { background-color: dodgerblue;}
+
+.contact {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+    background-color: dodgerblue;
+}
+
+.footer-bar {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
