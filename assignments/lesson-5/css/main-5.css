@@ -1,0 +1,55 @@
+* { box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+header, nav, main, footer {
+  max-width: 1200px;
+}
+
+header {font-family: cursive;}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header img { float: left; }
+header .subheading {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+nav {display: none;}
+nav button {}
+nav ul {}
+nav ul li {}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+main {}
+main h2 {
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
+}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+picture img{
+    float: right;
+}
+
+.forecast { display: none; }
+
+footer {}
