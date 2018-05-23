@@ -38,6 +38,57 @@
         color: aquamarine;
     }
     
+    .weather-summary { text-align: center; }
+    
+    .weather-summary h3 {
+        text-align: center;
+    }
+    
+    .current {
+        margin-left: 190px;
+    }
+    
+    .highlow {
+        margin-left: 190px;
+    }
+    
+    .conditions {
+        margin-left: 190px;
+    }
+    
     section.forecast { display: block; }
+    
+    .forecast h3 {
+        margin-top: 50px;
+        text-align: center;
+        color: cadetblue;
+    }
+    
+    table, th, td {
+        border: 1px solid dodgerblue;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    table {
+        border-spacing: inherit;
+    }
+
+    table tr {
+        background-color:  cadetblue;
+    }
+    
+    article img {
+        margin-left: 55px;
+    }
+
+    .town-article {
+        width: 650px;
+    }
     
   }
