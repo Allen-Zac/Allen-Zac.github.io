@@ -37,7 +37,7 @@ nav {}
 
     nav button {
         display: block;
-        top: 2.0rem 2%;
+        top: 2.0rem;
         right: 1.25rem; 
         background-color: #ccc;
         font-family: sans-serif;
@@ -63,16 +63,22 @@ nav {}
         padding: .8rem 2%;
         text-decoration: none;
         color: #000;
-        border-top: 1px solid rgba (0,0,0,0.3);
     }
 
     nav ul li.active a {
-        background-color: rgba(0,0,0,0.4);
         color: #fff;
     }
+    
+    nav ul li a:link { color: dodgerblue; }
+    
+    nav ul li a:visited { color:cadetblue; }
 
     nav ul li a:hover {
-        background-color: rgba(0,0,0,0.4);
+        color: aqua;
+    }
+    
+    nav ul li a:active {
+        color: aquamarine;
     }
 }
 
