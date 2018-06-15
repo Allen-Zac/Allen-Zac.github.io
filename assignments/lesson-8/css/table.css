@@ -1,10 +1,9 @@
-main {
-    font-family: Ubuntu, sans-serif;
-    padding:
-    
+* {
+    font-family: Ubuntu, sans-serif;    
 }
+
 table, th, td {
-    border: 1px solid grey;
+    border: 2px solid lightgrey;
     border-collapse: collapse;
     text-align: center;
 }
