@@ -1,0 +1,19 @@
+@media only screen and (min-width: 64em) {
+    article img {
+        margin-left: 75px;
+    }
+
+    .town-article {
+        width: 850px;
+    }
+    
+    /* Gallery Page CSS */
+    
+    div.gallery {
+  		grid-template-columns: repeat(3, 32%);
+	}
+	div.gallery figure:hover {
+		box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+	}
+    
+  }

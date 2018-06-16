@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tri-Cities Weather Gallery.">
+    <title>Photo Gallery for Tri-Cities Weather.</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main-8.css">
+    <link rel="stylesheet" href="css/medium-8.css">
+    <link rel="stylesheet" href="css/large-8.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script src="js/hamburger.js" defer></script>
+</head>
+    
+<body>
+    
+    <header>
+        <img src="images/logo.png" height="150" alt="Logo for the website.">
+        <h1>Tri-Cities Weather</h1>
+        <div class="subheading">For all your weather needs!</div>
+    </header>
+
+    <nav>
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        <ul id="navigation" class="hide">
+    	   <li><a href="../../index.html">Home</a></li>
+    	   <li><a href="franklin-8.html">Franklin</a></li>
+    	   <li><a href="#">Greenville</a></li>
+    	   <li><a href="#">Springfield</a></li>
+    	   <li><a href="stormcenter.html">Storm Center</a></li>
+    	   <li><a href="gallery-8.html">Gallery</a></li>
+        </ul>		
+    </nav>
+    
+    <main>
+        <h1 class="gallery-title">Gallery</h1>
+        
+        <div class="gallery">
+            <figure>
+                <img src="images/sunny-small.jpg" alt="A sunny day!">
+                <source media="(min-width: 64em)" srcset="images/sunny-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="images/sunny-medium.jpg">
+                <source media="(min-width: 1em)" srcset="images/sunny-small.jpg">
+                <figcaption>Sunny</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sunset-small.jpg" alt="A sunset over the ocean.">
+                <source media="(min-width: 64em)" srcset="images/sunset-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="images/sunset-medium.jpg">
+                <source media="(min-width: 1em)" srcset="images/sunset-large.jpg">
+                <figcaption>Sunset</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/lightning-small.jpg" alt="Lightning in the mountains.">
+                <source media="(min-width: 64em)" srcset="images/lightning-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="images/lightning-medium.jpg">
+                <source media="(min-width: 1em)" srcset="images/lightning-small.jpg">
+                <figcaption>Lightning</figcaption>
+            </figure>
+
+           <figure>
+                <img src="images/rain-small.jpg" alt="A rainy street.">
+                <source media="(min-width: 64em)" srcset="images/rain-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="images/rain-medium.jpg">
+                <source media="(min-width: 1em)" srcset="images/rain-small.jpg">
+                <figcaption>Rain</figcaption>
+            </figure>
+
+           <figure>
+                <img src="images/fog-small.jpg" alt="A foggy road.">
+                <source media="(min-width: 64em)" srcset="images/fog-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="images/fog-medium.jpg">
+                <source media="(min-width: 1em)" srcset="images/fog-small.jpg">
+                <figcaption>Fog</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/snow-small.jpg" alt="A snowy farm.">
+                <source media="(min-width: 64em)" srcset="images/snow-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="images/snow-medium.jpg">
+                <source media="(min-width: 1em)" srcset="images/snow-small.jpg">
+                <figcaption>Snow</figcaption>
+            </figure>
+
+        </div>        
+    </main>
+    
+    <footer>
+        <section class="contact">
+            Contact information placeholder
+            999.999.9999
+            123 Main St. Anytown, US 99999
+            Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved | Tri-Cities Weather | <span id="currentDate"></span>
+        </section>
+    </footer>
+
+    <script src="js/currentdate.js" async></script>
+    
+</body>
+</html>
