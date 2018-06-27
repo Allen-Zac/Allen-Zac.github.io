@@ -9,6 +9,6 @@ weatherRequest.onload = function () {
     document.getElementById("description").innerHTML = weatherData.weather[0].description;
      document.getElementById("currentTemp").innerHTML = weatherData.main.temp;
     document.getElementById("speed").innerHTML = weatherData.wind.speed;
-    let imagesrc = "http://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png"
+    let imagesrc = "https://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png"
     document.getElementById("weatherIcon").src = imagesrc;
 }
