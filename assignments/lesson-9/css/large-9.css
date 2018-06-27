@@ -7,6 +7,26 @@
         width: 850px;
     }
     
+    .current {
+        margin-left: 228px;
+    }
+    
+    .highlow {
+        margin-left: 190px;
+    }
+    
+    .current-temp {
+        margin-left: 35px;
+    }
+    
+    .conditions {
+        margin-left: 190px;
+    }
+    
+    .windchill {
+        margin-left: 190px;
+    }
+    
     /* Gallery Page CSS */
     
     div.gallery {
