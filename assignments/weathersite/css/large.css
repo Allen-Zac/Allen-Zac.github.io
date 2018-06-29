@@ -1,0 +1,77 @@
+@media only screen and (min-width: 64em) {
+    article img {
+        margin-left: 75px;
+    }
+
+    .town-article {
+        width: 850px;
+    }
+    
+    .current {
+        margin-left: 228px;
+    }
+    
+    .highlow {
+        margin-left: 190px;
+    }
+    
+    .current-temp {
+        margin-left: 35px;
+    }
+    
+    .conditions {
+        margin-left: 190px;
+    }
+    
+    .windchill {
+        margin-left: 190px;
+    }
+    
+    /* Gallery Page CSS */
+    
+    div.gallery {
+  		grid-template-columns: repeat(3, 32%);
+	}
+	div.gallery figure:hover {
+		box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+	}
+    
+    /* Home Page CSS */
+	.homeArticle {
+		margin: 1.5rem 0 2.5rem 0;
+	}
+    
+    #cities{
+		display: flex;
+		justify-content: space-evenly;
+	}
+    
+	.cityBoxes {
+		display: block;
+		width: 20rem;
+		border: 1px solid gray;
+		margin: 1rem;
+		box-shadow: 5px 5px 10px gray;
+	}
+    
+    .cityBoxes img {
+		width: 19em;
+		height: 14em;
+        margin-left: 5px;
+        margin-right: 5px;
+	}
+    
+	.box {
+		border: none;
+		box-shadow: none;
+	}
+    
+	.cityBoxesLargeView {
+		width: 100%;
+	}
+    
+	.images {
+		order: 0;
+	}
+    
+  }
