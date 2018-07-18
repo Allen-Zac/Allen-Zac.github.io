@@ -33,8 +33,56 @@
         </ul>		
     </nav>
     
-    <main>
+    <main class="homePage">
+        <h1>Contact Us</h1>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9316277611015!2d-111.09290618453335!3d45.672272879103986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1531882813507" width="600" height="450"></iframe>
+        </div>
         
+        <section class="bikeBoxes">
+                <div class="box bikeBoxesLargeView">
+                    <h2>Contact Info</h2>
+                    <p><b>Phone #:</b> (406)209-9001</p>
+                    <p><b>Email:</b> MountainSpoke@gmail.com</p>
+                    <p><b>Address:</b> 3950 Valley Commons Drive Bozeman, MT</p>
+                    <p><i>Or instantly contact us using the form below.</i></p>
+                </div>
+            </section>
+       
+        <form action="contact-thanks.html" method="get" enctype="multipart/form-data" name="stormform">
+            <fieldset>
+                <legend>Contact Us</legend>
+                    <div>
+                        <label>
+                            <span>Full Name:</span>
+                            <input name="userName" type="text" placeholder="Name: First Last" pattern="[A-z\s]{5,}" required title="Please enter your first and last name. 5 Characters minimum.">
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>
+                            <span>Email:</span>
+                            <input name="email" type="email" placeholder="emailname@email.com" required title="Enter a valid email">
+                        </label>
+                    </div>
+                   
+                    <div>
+                        <label>
+                            <span>Phone Number:</span>
+                            <input name="phonenumber" type="tel" placeholder="Phone Number" required title="Enter your phone number">
+                        </label>
+                    </div>
+                
+                    <div>
+                        <label>
+                            <span>What can we do for you:</span>
+                            <textarea>
+                            </textarea>
+                        </label>
+                    </div>
+                </fieldset>
+            <input type="submit" value="Send" class="submit">
+        </form>
     </main>
     
     <footer>

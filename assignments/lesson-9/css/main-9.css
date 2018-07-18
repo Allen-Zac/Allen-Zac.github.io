@@ -298,12 +298,12 @@ form input.submit {
 }
 
 /* Home Page CSS */
-.HomePage {
+.homePage {
     display: grid;
     margin-bottom: 10px;
 }
 
-.HomePage h1 {
+.homePage h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 35px;
     text-align: center;
@@ -312,7 +312,7 @@ form input.submit {
     color: dodgerblue;
 }
 
-.HomePage h2 {
+.homePage h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
     text-align: center;

@@ -80,84 +80,8 @@ nav {}
     nav ul li a:focus { color: lawngreen;}
 }
 
-main {}
-main h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 35px;
-    text-align: center;
-    border-top: 2px solid #805500;
-    border-bottom: 2px solid #805500;
-    color: green;
-}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.weather-summary { 
-    margin: 10px;
-    margin-left: 20px;
-}
-
-.weather-summary h3 {
-    font-family: serif;
-    text-align: left;
-    color: #805500;
-}
-
-.current img{
-    float: right;
-    margin-right: 20%;
-}
-
-.current {
-    margin-left: 0px;
-    margin-right: 50px;
-}
-
-.highlow {
-    margin-left: 0px;
-    margin-right: 190px;
-}
-
-.conditions {
-    margin-left: 0px;
-    margin-right: 190px;
-}
-
-.windchill {margin-left: 0px;}
-
-.forecast { display: none; }
-
 article { 
-    display: block;
     border-bottom: 2px solid #805500;
-}
-
-article h3 { 
-    margin-top: 70px;
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Roboto Slab', serif;
-    border-top: 2px solid #805500;
-    border-bottom: 2px solid #805500;
-    color: green
-}
-
-article img {
-    margin-left: 30px;
-    margin-right: auto;
-    width: 85%
-}
-
-.town-article {
-    margin-left: auto;
-    margin-right: auto;
-    width: 340px;
-    text-align: left;
 }
 
 footer { 
@@ -187,69 +111,7 @@ footer {
     background-color: #805500;
 }
 
-/* Gallery Page CSS */
-
-.gallery-title {
-    font-family: 'Roboto Slab', serif;
-    font-size: 35px;
-    text-align: center;
-    border-top: 2px solid #805500;
-    border-bottom: 2px solid #805500;
-    color: green;
-}
-
-div.gallery {
-	padding: 0 2%;
-  	grid-template-columns: repeat(1, 100%);
-    display: grid;
-}
-
-div.gallery figure {
-    margin: 1rem 0; 
-    border: 1px solid;
-    }
-
-div.gallery figure img {
-    width: 100%;
-}
-
-div.gallery figure figcaption {
-    text-align: center;
-    font-size: .9rem;
-}
-
-div.topGrid{
-    padding: 0 2%;
-    display: grid;
-    margin-right: .5rem;
-    background-color: lightblue;
-}
-
-div.topGrid img{
-    width: 100%;
-}
-
-div.grids{
-    padding: 0 2%;
-    display: grid;
-    margin-right: .5rem;
-    background-color: darkgrey;
-}
-
-div.grids img{
-    width: 100%;
-}
-
-/* Stormcenter Page CSS */
-
-#stormcentertitle {
-    font-family: 'Roboto Slab', serif;
-    font-size: 35px;
-    text-align: center;
-    border-top: 2px solid #805500;
-    border-bottom: 2px solid #805500;
-    color: green;
-}
+/* Forms CSS */
 
 form fieldset {
     margin: 2%; 
@@ -280,29 +142,8 @@ form input.submit {
 	color: black;
 	padding: 10px 30px;
 	margin-bottom: 10px;
-    border: none;
-    margin-left: 45%;
-}
-
-/* Thanks Page CSS */
-
-#thanks-heading {
-    font-family: 'Roboto Slab', serif;
-    font-size: 35px;
-    text-align: center;
-    border-top: 2px solid #805500;
-    border-bottom: 2px solid #805500;
-    color: green;
-}
-
-#thanks-body {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 22px;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    text-align: center;
+    margin-left: 43%;
+    border: 2px solid green;
 }
 
 /* Home Page CSS */
@@ -324,30 +165,25 @@ form input.submit {
     color: green;
 }
 
-.homeArticle {
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-.cityBoxes {
+.bikeBoxes {
 	text-align: center;
 	border: 1px solid #805500;
 	margin: 1rem;
 	padding: .5rem;
 }
 
-.cityBoxes img {
+.bikeBoxes img {
 	display: none;
 }
 
-.cityBoxSmall {
+.bikeBoxSmall {
     text-align: center;
 	border: 1px solid #805500;
 	margin: 1rem;
 	padding: .5rem;
 }
 
-.cityBoxSmall img {
+.bikeBoxSmall img {
     display: block;
     width: 100%;
     height: 20em;
@@ -376,12 +212,13 @@ form input.submit {
 
 /* Table in Services */
 
-* {
-    font-family: Ubuntu, sans-serif;    
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table, th, td {
-    border: 2px solid lightgrey;
+    border: 2px solid #805500;
     border-collapse: collapse;
     text-align: center;
 }
@@ -390,36 +227,21 @@ th, td {
     padding: 8px;
 }
 
-table {
-    border-spacing: inherit;
-    box-shadow: 10px 10px 5px grey;
-}
-
 table tr:nth-child(odd) {
-    background-color:  #e7f0ed;
+    background-color:  #F9F7CF;
 }
 
 table tr:nth-child(even) {
-    background-color:#e7ffed;
+    background-color:#D1AE92;
 }
 
 th#header {
-    color: black;
-    background-color: #7fb9c2;
+    color: #805500;
+    background-color: #F9F7CF;
     font-size: 18pt;
 }
 
 tr#subheader {
-    color: white;
-    background-color: #628ca6;
-}
-
-td#goal {
-    color: white;
-    background-color: #628ca6;
-}
-
-td#footer {
-    background-color: #7fb9c2;
-    font-size: 8pt;
+    color: green;
+    background-color: #D1AE92;
 }

@@ -104,9 +104,9 @@
 	}
     
     /* Home Page CSS */
-    .HomePage {
+    .homePage {
     }
-    .HomePage h1 {
+    .homePage h1 {
         font-family: 'Roboto Slab', serif;
         font-size: 35px;
         text-align: center;
@@ -115,7 +115,7 @@
         color: dodgerblue;
     }
 
-    .HomePage h2 {
+    .homePage h2 {
         font-family: 'Roboto Slab', serif;
         font-size: 30px;
         text-align: center;

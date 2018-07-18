@@ -1,61 +1,21 @@
 @media only screen and (min-width: 64em) {
-    article img {
-        margin-left: 75px;
-    }
 
-    .town-article {
-        width: 850px;
-    }
-    
-    .current {
-        margin-left: 228px;
-    }
-    
-    .highlow {
-        margin-left: 190px;
-    }
-    
-    .current-temp {
-        margin-left: 35px;
-    }
-    
-    .conditions {
-        margin-left: 190px;
-    }
-    
-    .windchill {
-        margin-left: 190px;
-    }
-    
-    /* Gallery Page CSS */
-    
-    div.gallery {
-  		grid-template-columns: repeat(3, 32%);
-	}
-	div.gallery figure:hover {
-		box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
-	}
-    
     /* Home Page CSS */
-	.homeArticle {
-		margin: 1.5rem 0 2.5rem 0;
-	}
-    
-    #cities{
+    #boxID {
 		display: flex;
 		justify-content: space-around;
 	}
     
-	.cityBoxes {
+	.bikeBoxes {
 		display: block;
 		border: 1px solid gray;
 		margin: 5px;
         text-align: center;
 	}
     
-    .cityBoxSmall {display: none;}
+    .bikeBoxSmall {display: none;}
     
-    .cityBoxes img {
+    .bikeBoxes img {
 		width: 19em;
 		height: 17em;
         margin-left: 5px;
@@ -67,7 +27,7 @@
 		box-shadow: none;
 	}
     
-	.cityBoxesLargeView {
+	.bikeBoxesLargeView {
 		width: 98%;
         text-align: center;
         margin-left: 2px;
@@ -76,5 +36,11 @@
 	.images {
 		order: 0;
 	}
+    
+    /* Contact Page CSS */
+
+    .homePage .map {
+    margin-left: 168px;
+}
     
   }
