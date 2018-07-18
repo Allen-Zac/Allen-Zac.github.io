@@ -1,0 +1,38 @@
+{
+  "services" : [
+  {
+    "service": "Tune-Up",
+    "price": "$45.00"
+    ]
+  },
+  {
+    "service": "Tube Repair",
+    "price": "$35.00"
+    ]
+  },
+      
+  {
+    "service": "Spoke Straitening",
+    "price": "$32.00"
+    ]
+  },
+      
+  {
+    "service": "Paint Job",
+    "price": "$300.00"
+    ]
+  },
+
+  {
+    "service": "Mountain Bike Rental",
+    "price": "$50.00"
+    ]
+  },
+
+  {
+    "service": "Street Bike Rental",
+    "price": "$30.00"
+    ]
+  }
+ ]
+}

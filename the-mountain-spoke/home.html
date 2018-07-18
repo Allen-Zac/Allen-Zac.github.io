@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home Page - The Mountain Spoke">
+    <title>Home - The Mountain Spoke</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script src="js/hamburger.js" defer></script>
+</head>
+    
+<body>
+    
+    <header>
+        <img src="images/icon.jpg" height="100" alt="Website Logo.">
+        <h1>The Mountain Spoke</h1>
+        <div class="motto">Adventure awaits!</div>
+    </header>
+
+    <nav>
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+        <ul id="navigation" class="hide">
+    	   <li><a href="home.html">Home</a></li>
+    	   <li><a href="tours.html">Adventure Tours</a></li>
+    	   <li><a href="events.html">Events</a></li>
+    	   <li><a href="sales.html">Sales</a></li>
+    	   <li><a href="services.html">Services</a></li>
+    	   <li><a href="contact.html">Contact Us</a></li>
+        </ul>		
+    </nav>
+    
+    <main class="homePage">
+        <h1>Home</h1>
+        <div class="homeArticle">
+            <article class="articleText">
+                <h2>About Our Company</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat, purus ornare ullamcorper convallis, odio magna commodo arcu, eu ullamcorper orci enim id neque. In vitae molestie mi. Vivamus volutpat, sapien a condimentum feugiat, risus ex scelerisque leo, et rhoncus ipsum nibh molestie lorem. Pellentesque id est blandit, rhoncus magna ut, ullamcorper eros. Curabitur eu nunc augue. Nunc nec tortor finibus, ullamcorper mi in, fringilla turpis. Nam pulvinar lacinia mauris, eu tempus mi iaculis at. Proin libero dolor, auctor in pharetra et, feugiat volutpat velit. Aliquam eget augue urna. Nulla bibendum volutpat turpis, sed facilisis ex volutpat a.
+                </p>
+            </article>
+        </div>
+
+        <section id="cities">
+            <section class="cityBoxes">
+                <img src="../assignments/weathersite/images/franklin-medium.jpeg" class="images" alt="A field in Franklin.">
+                
+                <img src="../assignments/weathersite/images/franklin-medium.jpeg" class="images" alt="A field in Franklin.">
+            </section>
+            
+            <section class="cityBoxSmall">
+                <img src="../assignments/weathersite/images/franklin-medium.jpeg" class="images" alt="A field in Franklin.">
+            </section>
+
+            <section class="cityBoxes">
+                <div class="box cityBoxesLargeView">
+                    <h2>Call to Action Yo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat, purus ornare ullamcorper convallis, odio magna commodo arcu, eu ullamcorper orci enim id neque. In vitae molestie mi. Vivamus volutpat, sapien a condimentum feugiat, risus ex scelerisque leo, et rhoncus ipsum nibh molestie lorem. Pellentesque id est blandit, rhoncus magna ut, ullamcorper eros. Curabitur eu nunc augue. Nunc nec tortor finibus, ullamcorper mi in, fringilla turpis. Nam pulvinar lacinia mauris, eu tempus mi iaculis at. Proin libero dolor, auctor in pharetra et, feugiat volutpat velit. Aliquam eget augue urna. Nulla bibendum volutpat turpis, sed facilisis ex volutpat a.</p>
+                </div>
+            </section>
+
+            <section class="cityBoxes">
+                <img src="../assignments/weathersite/images/franklin-medium.jpeg" class="images" alt="A field in Franklin.">
+                
+                <img src="../assignments/weathersite/images/franklin-medium.jpeg" class="images" alt="A field in Franklin.">
+            </section>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="contact">
+            <p>406.209.9001</p>
+            <p>3950 Valley Commons Drive Bozeman, MT</p>
+            <p><a href="https://goo.gl/maps/R5dhmGnqqaz">Google Map</a></p>
+        </div>
+        <div class="copyright">
+            &copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentDate"></span>
+        </div>
+    </footer>
+
+    <script src="js/currentdate.js" async></script>
+    
+</body>
+</html>
